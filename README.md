@@ -15,7 +15,7 @@
 
 ## 插件总览
 
-统计：共 **18** 项（官方核心 2 / 第三方插件 12 / 本地自研运行中 3 / 本机自研工程 2）。
+统计：共 **18** 项（官方核心 2 / 第三方插件 13 / 本地自研运行中 2 / 本机自研工程 2）。
 
 ### 官方核心（随 dsh 发行，每个 profile 必备）
 
@@ -38,13 +38,13 @@
 | `@xmanrui/dsh-im` | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im)（33★） | 扫码/机器人凭据把 IM 机器人接入 DSH（飞书/微信/钉钉/企微/QQ/Telegram/Discord） | 底层（供各渠道接入） |
 | `dsh-lark-channel` | [omdsh-dev/dsh-lark](https://github.com/omdsh-dev/dsh-lark)（30★） | 飞书 IM 机器人渠道：对话驱动 agent，回复与审批以消息/卡片返回 | 高频（当前会话即经此渠道） |
 | `@liustack/modlens` | [liustack/modlens](https://github.com/liustack/modlens)（2743★） | 面向文本 LLM 的即插即用视觉桥：免费 Antigravity CLI 提供图像理解/OCR | 按需（读图/OCR 时） |
+| `dsh-memory-evolve` | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve)（150★） | 第三方开源记忆插件（csyangwen 发布，dsh-external 组织维护）：五轨分层记忆 + 自我进化（技能自动创建+回合内审查）+ 技能/待办管理 + 无限画板 + COI 调度 + 会话广播 + 提示词管理器 + 记忆同步 + 书签/分支 + 本地搜索 + 临时便签，带 WebUI。本机 link 安装源码副本（D:/1/dsh-memory-evolve） | 每回合（记忆持续写入） |
 | `lan-gate` | [hchao3335-maker/dsh-lan-gate](https://github.com/hchao3335-maker/dsh-lan-gate)（11★） | 内网访问网关（第三方开源）：`0.0.0.0:3088 → 127.0.0.1:3080`，本机审批、设备令牌、限流、手机适配，单文件零依赖；本机直接用其源码（`~/.dsh/lan-gate/lan-gate.mjs`） | 常驻（移动端远程访问） |
 
 ### 本地自研（本机开发、正在运行）
 
 | 插件名 | 仓库 | 介绍 | 本机使用频率 |
 | --- | --- | --- | --- |
-| `dsh-memory-evolve` | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve)（149★） | 五轨分层记忆（用户/全局/项目关键记忆/项目日志/每日日志，git 分支感知）+ 自我进化（技能自动创建+回合内审查）+ 技能/待办管理 + 无限画板 + COI 调度 + 会话广播 + 提示词管理器 + 记忆同步 + 书签/分支 + 本地搜索 + 临时便签，带 WebUI（记忆/技能/待办/设置 Tab）。发布账号 csyangwen，本地 link 开发 | 每回合（记忆持续写入） |
 | `dsh-web-restart` | [1123762794/dsh-web-restart](https://github.com/1123762794/dsh-web-restart) | DSH Web 一键重启按钮：侧边栏底部单击即重启 dsh web 进程 | 常用（Web 需重启时） |
 | `dsh-opencode-quota` | [1123762794/dsh-opencode-quota](https://github.com/1123762794/dsh-opencode-quota) | 输入框下方显示 OpenCode Go 订阅额度（5小时/周/月已用百分比） | 每次打开 Web 界面 |
 
