@@ -38,7 +38,7 @@
 | `@xmanrui/dsh-im` | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im)（33★） | 扫码/机器人凭据把 IM 机器人接入 DSH（飞书/微信/钉钉/企微/QQ/Telegram/Discord） | 底层（供各渠道接入） |
 | `dsh-lark-channel` | [omdsh-dev/dsh-lark](https://github.com/omdsh-dev/dsh-lark)（30★） | 飞书 IM 机器人渠道：对话驱动 agent，回复与审批以消息/卡片返回 | 高频（当前会话即经此渠道） |
 | `@liustack/modlens` | [liustack/modlens](https://github.com/liustack/modlens)（2743★） | 面向文本 LLM 的即插即用视觉桥：免费 Antigravity CLI 提供图像理解/OCR | 按需（读图/OCR 时） |
-| `lan-gate` | [hchao3335-maker/dsh-lan-gate](https://github.com/hchao3335-maker/dsh-lan-gate)（11★） | 内网访问网关（第三方开源）：`0.0.0.0:3088 → 127.0.0.1:3080`，本机审批、设备令牌、限流、手机适配，单文件零依赖（本机有镜像 `1123762794/dsh-lan-gate`） | 常驻（移动端远程访问） |
+| `lan-gate` | [hchao3335-maker/dsh-lan-gate](https://github.com/hchao3335-maker/dsh-lan-gate)（11★） | 内网访问网关（第三方开源）：`0.0.0.0:3088 → 127.0.0.1:3080`，本机审批、设备令牌、限流、手机适配，单文件零依赖；本机直接用其源码（`~/.dsh/lan-gate/lan-gate.mjs`） | 常驻（移动端远程访问） |
 
 ### 本地自研（本机开发、正在运行）
 
