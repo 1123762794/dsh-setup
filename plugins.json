@@ -18,10 +18,10 @@
   {
     "name": "dsh-memory-evolve",
     "repo": "https://github.com/csyangwen/dsh-memory-evolve",
-    "desc": "五轨分层记忆（用户档案/全局事实/项目关键记忆/项目日志/每日日志，git 分支感知）+ 自我进化（技能自动创建+回合内审查）+ 技能管理器 + 四轨待办 + 无限画板 + COI 调度（kimi/codex/grok/hermes 等外部 AI）+ 会话广播 + 提示词管理器 + 记忆同步（跨设备）+ 会话书签/分支 + 本地文件搜索 + 临时便签，带 WebUI（记忆/技能/待办/设置 Tab）。发布账号 csyangwen，本地 link 开发。",
+    "desc": "第三方开源记忆插件（csyangwen 发布，dsh-external 组织持续维护）：五轨分层记忆（用户档案/全局事实/项目关键记忆/项目日志/每日日志，git 分支感知）+ 自我进化（技能自动创建+回合内审查）+ 技能管理器 + 四轨待办 + 无限画板 + COI 调度（kimi/codex/grok/hermes 等外部 AI）+ 会话广播 + 提示词管理器 + 记忆同步（跨设备）+ 会话书签/分支 + 本地文件搜索 + 临时便签，带 WebUI（记忆/技能/待办/设置 Tab）。本机以 link 方式安装源码副本（D:/1/dsh-memory-evolve）并使用。",
     "frequency": "每回合（记忆持续写入）",
-    "category": "本地自研",
-    "stars": 149
+    "category": "第三方插件",
+    "stars": 150
   },
   {
     "name": "dshmarket",
