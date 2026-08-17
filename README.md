@@ -15,7 +15,7 @@
 
 ## 插件总览
 
-统计：共 **19** 项（官方核心 2 / 第三方插件 11 / 本地自研运行中 4 / 本机自研工程 2）。
+统计：共 **19** 项（官方核心 2 / 第三方插件 11 / 本地自研运行中 5 / 本机自研工程 2）。
 
 ### 官方核心（随 dsh 发行，每个 profile 必备）
 
@@ -43,18 +43,18 @@
 
 | 插件名 | 仓库 | 介绍 | 本机使用频率 |
 | --- | --- | --- | --- |
-| `dsh-memory-evolve` | 本地（`D:/1/dsh-memory-evolve`，link 安装） | 分层记忆（全局/用户/项目/GIT 分支/每日）+ 自我进化（经验沉淀+技能自动创建），含技能/待办管理、CLI 调度、临时便签、WebUI | 每回合（记忆持续写入） |
-| `dsh-web-restart` | 本地（`D:/1/dsh-web-restart`，link 安装） | DSH Web 一键重启按钮：侧边栏底部单击即重启 dsh web 进程 | 常用（Web 需重启时） |
-| `dsh-opencode-quota` | 本地（`D:/1/dsh-opencode-quota`，link 安装） | 输入框下方显示 OpenCode Go 订阅额度（5小时/周/月已用百分比） | 每次打开 Web 界面 |
-| `lan-gate` | 本地（`C:/Users/11237/.dsh/lan-gate/lan-gate.mjs`） | 内网访问网关：`0.0.0.0:3088 → 127.0.0.1:3080`，首次访问需本机审批 | 常驻（移动端远程访问） |
-| `dsh-chatnode-wechat` | 本地（`@dsh-cowork/chatnode-wechat`） | 微信接入 DSH：扫码/凭据登录、白名单管控、iLink 长轮询 | 常驻（微信通道） |
+| `dsh-memory-evolve` | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | 分层记忆（全局/用户/项目/GIT 分支/每日）+ 自我进化（经验沉淀+技能自动创建），含技能/待办管理、CLI 调度、临时便签、WebUI | 每回合（记忆持续写入） |
+| `dsh-web-restart` | [1123762794/dsh-web-restart](https://github.com/1123762794/dsh-web-restart) | DSH Web 一键重启按钮：侧边栏底部单击即重启 dsh web 进程 | 常用（Web 需重启时） |
+| `dsh-opencode-quota` | [1123762794/dsh-opencode-quota](https://github.com/1123762794/dsh-opencode-quota) | 输入框下方显示 OpenCode Go 订阅额度（5小时/周/月已用百分比） | 每次打开 Web 界面 |
+| `lan-gate` | [1123762794/dsh-lan-gate](https://github.com/1123762794/dsh-lan-gate) | 内网访问网关：`0.0.0.0:3088 → 127.0.0.1:3080`，首次访问需本机审批 | 常驻（移动端远程访问） |
+| `dsh-chatnode-wechat` | 本地（`@dsh-cowork/chatnode-wechat`，无独立公开仓库） | 微信接入 DSH：扫码/凭据登录、白名单管控、iLink 长轮询 | 常驻（微信通道） |
 
 ### 本机自研工程（已在 D 盘、未在 web profile 运行）
 
 | 插件名 | 仓库 | 介绍 | 本机使用频率 |
 | --- | --- | --- | --- |
-| `dsh-desktop` | 本地（`D:/1/dsh-desktop`） | DeepSeek Harness 极简桌面客户端：一键拉起 dsh web 并打开原生窗口（Electron） | 未在 web profile 运行 |
-| `dsh-inline-images` | 本地（`D:/1/dsh-inline-images`） | 对话内联图片：LLM 回复输出的本地图片路径直接渲染为图片（9 种格式、灯箱、可调尺寸） | 已安装（node_modules 中） |
+| `dsh-desktop` | [1123762794/dsh-desktop](https://github.com/1123762794/dsh-desktop) | DeepSeek Harness 极简桌面客户端：一键拉起 dsh web 并打开原生窗口（Electron） | 未在 web profile 运行 |
+| `dsh-inline-images` | [3403473060/dsh-inline-images](https://github.com/3403473060/dsh-inline-images) | 对话内联图片：LLM 回复输出的本地图片路径直接渲染为图片（9 种格式、灯箱、可调尺寸） | 已安装（node_modules 中） |
 
 ## 数据文件
 
