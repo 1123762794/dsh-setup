@@ -112,13 +112,6 @@
     "category": "本地自研"
   },
   {
-    "name": "dsh-chatnode-wechat",
-    "repo": "本地自研（@dsh-cowork/chatnode-wechat）",
-    "desc": "微信接入 DSH：扫码/凭据登录，白名单管控，iLink 长轮询连接微信服务器，支持 /sessions /use 等指令与审批操作。",
-    "frequency": "常驻（微信通道，随时可用）",
-    "category": "本地自研"
-  },
-  {
     "name": "dsh-desktop",
     "repo": "https://github.com/1123762794/dsh-desktop",
     "desc": "DeepSeek Harness 极简桌面客户端：一键拉起 dsh web 并打开原生窗口（Electron）。",
