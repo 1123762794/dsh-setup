@@ -15,7 +15,7 @@
   },
   {
     "name": "dsh-memory-evolve",
-    "repo": "本地自研（link:D:/1/dsh-memory-evolve）",
+    "repo": "https://github.com/csyangwen/dsh-memory-evolve",
     "desc": "为 DeepSeek Harness 带来分层记忆（全局/用户/项目/GIT 分支/每日）与自我进化（经验沉淀+技能自动创建），含技能管理、待办管理、CLI 调度（kimi/codex/grok/hermes 等外部 AI）、临时便签，带 WebUI 管理界面。",
     "frequency": "每回合（记忆持续写入）",
     "category": "本地自研"
@@ -92,21 +92,21 @@
   },
   {
     "name": "dsh-web-restart",
-    "repo": "本地自研（link:D:/1/dsh-web-restart）",
+    "repo": "https://github.com/1123762794/dsh-web-restart",
     "desc": "DSH Web 一键重启按钮：侧边栏底部按钮单击即重启 dsh web 进程（无需二次确认）。",
     "frequency": "常用（Web 需要重启时）",
     "category": "本地自研"
   },
   {
     "name": "dsh-opencode-quota",
-    "repo": "本地自研（link:D:/1/dsh-opencode-quota）",
+    "repo": "https://github.com/1123762794/dsh-opencode-quota",
     "desc": "在 DSH 输入框下方显示 OpenCode Go 订阅额度（5小时/周/月已用百分比，点击展开明细）。",
     "frequency": "每次打开 Web 界面",
     "category": "本地自研"
   },
   {
     "name": "lan-gate",
-    "repo": "本地自研（file:C:/Users/11237/.dsh/lan-gate/lan-gate.mjs）",
+    "repo": "https://github.com/1123762794/dsh-lan-gate",
     "desc": "内网访问网关：0.0.0.0:3088 → 127.0.0.1:3080，首次访问需本机审批。",
     "frequency": "常驻（移动端远程访问）",
     "category": "本地自研"
@@ -120,14 +120,14 @@
   },
   {
     "name": "dsh-desktop",
-    "repo": "本地自研（D:/1/dsh-desktop）",
+    "repo": "https://github.com/1123762794/dsh-desktop",
     "desc": "DeepSeek Harness 极简桌面客户端：一键拉起 dsh web 并打开原生窗口（Electron）。",
     "frequency": "未在 web profile 运行（本机自研工程）",
     "category": "本机自研工程(未运行)"
   },
   {
     "name": "dsh-inline-images",
-    "repo": "本地自研（D:/1/dsh-inline-images）",
+    "repo": "https://github.com/3403473060/dsh-inline-images",
     "desc": "对话内联图片：LLM 回复中输出的本地图片路径直接在消息正文内渲染为图片，支持 9 种格式、点击放大灯箱、可调尺寸。",
     "frequency": "已安装（node_modules 中）",
     "category": "本机自研工程(未运行)"
