@@ -15,7 +15,7 @@
 
 ## 插件总览
 
-统计：共 **19** 项（官方核心 2 / 第三方插件 11 / 本地自研运行中 5 / 本机自研工程 2）。
+统计：共 **18** 项（官方核心 2 / 第三方插件 11 / 本地自研运行中 4 / 本机自研工程 2）。
 
 ### 官方核心（随 dsh 发行，每个 profile 必备）
 
@@ -47,7 +47,6 @@
 | `dsh-web-restart` | [1123762794/dsh-web-restart](https://github.com/1123762794/dsh-web-restart) | DSH Web 一键重启按钮：侧边栏底部单击即重启 dsh web 进程 | 常用（Web 需重启时） |
 | `dsh-opencode-quota` | [1123762794/dsh-opencode-quota](https://github.com/1123762794/dsh-opencode-quota) | 输入框下方显示 OpenCode Go 订阅额度（5小时/周/月已用百分比） | 每次打开 Web 界面 |
 | `lan-gate` | [1123762794/dsh-lan-gate](https://github.com/1123762794/dsh-lan-gate) | 内网访问网关：`0.0.0.0:3088 → 127.0.0.1:3080`，首次访问需本机审批 | 常驻（移动端远程访问） |
-| `dsh-chatnode-wechat` | 本地（`@dsh-cowork/chatnode-wechat`，无独立公开仓库） | 微信接入 DSH：扫码/凭据登录、白名单管控、iLink 长轮询 | 常驻（微信通道） |
 
 ### 本机自研工程（已在 D 盘、未在 web profile 运行）
 
