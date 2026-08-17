@@ -1,0 +1,135 @@
+[
+  {
+    "name": "@deepseek-ai/dsh-base",
+    "repo": "https://github.com/deepseek-ai/deepseek-harness",
+    "desc": "DeepSeek Harness 官方基础库：所有 profile 共用的核心依赖与运行时底座。",
+    "frequency": "每回合（核心运行时）",
+    "category": "官方核心"
+  },
+  {
+    "name": "@deepseek-ai/dsh-web-app",
+    "repo": "https://github.com/deepseek-ai/deepseek-harness",
+    "desc": "DeepSeek Harness 官方 Web UI 应用框架：会话面板、消息流、工具行的前端宿主。",
+    "frequency": "每次打开 Web 界面（核心运行时）",
+    "category": "官方核心"
+  },
+  {
+    "name": "dsh-memory-evolve",
+    "repo": "本地自研（link:D:/1/dsh-memory-evolve）",
+    "desc": "为 DeepSeek Harness 带来分层记忆（全局/用户/项目/GIT 分支/每日）与自我进化（经验沉淀+技能自动创建），含技能管理、待办管理、CLI 调度（kimi/codex/grok/hermes 等外部 AI）、临时便签，带 WebUI 管理界面。",
+    "frequency": "每回合（记忆持续写入）",
+    "category": "本地自研"
+  },
+  {
+    "name": "dshmarket",
+    "repo": "https://github.com/dsh-market/dsh-market",
+    "desc": "DSH 可视化插件市场：浏览、搜索、一键安装社区插件。",
+    "frequency": "按需（装插件时）",
+    "category": "第三方插件"
+  },
+  {
+    "name": "@deepseek-ai/dsh-plugin-console",
+    "repo": "https://github.com/Noob-stupid/dsh-plugin-hub",
+    "desc": "插件控制台：一键启用/停用插件，浏览并安装 GitHub dsh-plugin 插件。",
+    "frequency": "按需（生管插件时）",
+    "category": "第三方插件"
+  },
+  {
+    "name": "dsh-context",
+    "repo": "https://github.com/bowenliang123/dsh-context",
+    "desc": "上下文洞察面板：查看模型上下文窗口的构成与演化（组成、历史、压缩、注入、模型切换）。",
+    "frequency": "常用（观察上下文时）",
+    "category": "第三方插件"
+  },
+  {
+    "name": "@omdsh-dev/dsh-genui",
+    "repo": "https://github.com/omdsh-dev/dsh-genui",
+    "desc": "GenUI：在助手回复内联渲染交互式 UI 组件（布局、图表、表单、测验、mermaid、3D 场景、动作事件循环），附 fence 教学、浏览器渲染器与 skill。",
+    "frequency": "高频（结构化回复自动触发）",
+    "category": "第三方插件"
+  },
+  {
+    "name": "@dsh-external/dsh-visualize",
+    "repo": "https://github.com/Nagi-ovo/dsh-visualize",
+    "desc": "DSH 内联可视化：visualize 工具 + skill 让模型把交互式 HTML 片段渲染为沙箱卡片（Codex /visualize 语义）。",
+    "frequency": "常用（展示可视化卡片时）",
+    "category": "第三方插件"
+  },
+  {
+    "name": "dsh-better-sidebar",
+    "repo": "https://github.com/omdsh-dev/DSH-better-sidebar",
+    "desc": "VSCode 风格右侧边栏（资源管理器/编辑器/终端/ git/浏览器），按会话隔离，暴露服务供其他插件注册边栏标签与文件查看器。",
+    "frequency": "每次打开 Web 界面",
+    "category": "第三方插件"
+  },
+  {
+    "name": "@anionex/dsh-vision-toolkit",
+    "repo": "https://github.com/Anionex/dsh-vision-toolkit",
+    "desc": "agent-vision-toolkit 的 DSH 原生集成：图像问答、OCR、接地、UI 还原、像素对比、Artifacts 与 Web UI。",
+    "frequency": "按需（视觉任务时）",
+    "category": "第三方插件"
+  },
+  {
+    "name": "@xmanrui/dsh-im",
+    "repo": "https://github.com/xmanrui/dsh-im",
+    "desc": "通过扫码或机器人凭据把 IM 机器人接入 DSH（支持飞书、微信、钉钉、企业微信、QQ、Telegram 与 Discord）。",
+    "frequency": "底层（供各渠道接入使用）",
+    "category": "第三方插件"
+  },
+  {
+    "name": "dsh-lark-channel",
+    "repo": "https://github.com/omdsh-dev/dsh-lark",
+    "desc": "Lark/飞书 IM 机器人渠道：对话驱动 agent，回复与审批以消息/卡片返回。",
+    "frequency": "高频（当前本会话即经此渠道）",
+    "category": "第三方插件"
+  },
+  {
+    "name": "@liustack/modlens",
+    "repo": "https://github.com/liustack/modlens",
+    "desc": "面向纯文本 LLM 的即插即用视觉桥：免费 Antigravity CLI 提供图像理解 OCR 能力。",
+    "frequency": "按需（读图/OCR 时）",
+    "category": "第三方插件"
+  },
+  {
+    "name": "dsh-web-restart",
+    "repo": "本地自研（link:D:/1/dsh-web-restart）",
+    "desc": "DSH Web 一键重启按钮：侧边栏底部按钮单击即重启 dsh web 进程（无需二次确认）。",
+    "frequency": "常用（Web 需要重启时）",
+    "category": "本地自研"
+  },
+  {
+    "name": "dsh-opencode-quota",
+    "repo": "本地自研（link:D:/1/dsh-opencode-quota）",
+    "desc": "在 DSH 输入框下方显示 OpenCode Go 订阅额度（5小时/周/月已用百分比，点击展开明细）。",
+    "frequency": "每次打开 Web 界面",
+    "category": "本地自研"
+  },
+  {
+    "name": "lan-gate",
+    "repo": "本地自研（file:C:/Users/11237/.dsh/lan-gate/lan-gate.mjs）",
+    "desc": "内网访问网关：0.0.0.0:3088 → 127.0.0.1:3080，首次访问需本机审批。",
+    "frequency": "常驻（移动端远程访问）",
+    "category": "本地自研"
+  },
+  {
+    "name": "dsh-chatnode-wechat",
+    "repo": "本地自研（@dsh-cowork/chatnode-wechat）",
+    "desc": "微信接入 DSH：扫码/凭据登录，白名单管控，iLink 长轮询连接微信服务器，支持 /sessions /use 等指令与审批操作。",
+    "frequency": "常驻（微信通道，随时可用）",
+    "category": "本地自研"
+  },
+  {
+    "name": "dsh-desktop",
+    "repo": "本地自研（D:/1/dsh-desktop）",
+    "desc": "DeepSeek Harness 极简桌面客户端：一键拉起 dsh web 并打开原生窗口（Electron）。",
+    "frequency": "未在 web profile 运行（本机自研工程）",
+    "category": "本机自研工程(未运行)"
+  },
+  {
+    "name": "dsh-inline-images",
+    "repo": "本地自研（D:/1/dsh-inline-images）",
+    "desc": "对话内联图片：LLM 回复中输出的本地图片路径直接在消息正文内渲染为图片，支持 9 种格式、点击放大灯箱、可调尺寸。",
+    "frequency": "已安装（node_modules 中）",
+    "category": "本机自研工程(未运行)"
+  }
+]
