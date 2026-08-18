@@ -24,6 +24,6 @@
 ## 数据来源
 
 - 运行中插件：`~/.dsh/profiles/web/package.json`（`dsh.profile.bundles`）+ `cordis.patch.yml`
-- 本机自研工程：`D:/1` 下的 `dsh-*` 目录
+- 本机源码工程：`D:/1` 下的 `dsh-*` 目录
 
 欢迎通过 Issue 提出更新建议。
