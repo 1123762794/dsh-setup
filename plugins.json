@@ -108,6 +108,33 @@
     "install": "npm 安装（^0.0.6）"
   },
   {
+    "name": "dsh-pocket",
+    "repo": "https://github.com/shaobeichen/dsh-pocket",
+    "desc": "把 DeepSeek Harness 装进你的口袋：一个包、一个设置页，手机扫码即同步访问电脑上的 DSH（局域网 + 公网，实时同屏）。",
+    "frequency": "按需（手机远程访问时）",
+    "category": "第三方开源插件",
+    "stars": 368,
+    "install": "npm 安装（^1.9.2）"
+  },
+  {
+    "name": "dsh-undo-savepoint",
+    "repo": "https://github.com/lire1131/dsh-undo-savepoint",
+    "desc": "DSH 配置撤销/回滚系统：配置变更自动存快照，WebUI 或对话里 undo/redo 上一步，插件树坏了可离线回滚（DSH 起不来也能用 CLI+GUI）。",
+    "frequency": "底层（配置变更自动快照）",
+    "category": "第三方开源插件",
+    "stars": 112,
+    "install": "GitHub 安装（github:lire1131/dsh-undo-savepoint#master）"
+  },
+  {
+    "name": "@dsh-external/dsh-automation",
+    "repo": "https://github.com/titanwings/dsh-automation",
+    "desc": "DSH 自动化：让 Coding 任务按计划在全新 Agent Session 中运行，并从 DSH Web 或 Agent 管理自动化。",
+    "frequency": "按需（定时任务时）",
+    "category": "第三方开源插件",
+    "stars": 69,
+    "install": "GitHub 安装（github:titanwings/dsh-automation#v0.1.6）"
+  },
+  {
     "name": "@liustack/modlens",
     "repo": "https://github.com/liustack/modlens",
     "desc": "面向纯文本 LLM 的即插即用视觉桥：免费 Antigravity CLI 提供图像理解 OCR 能力。",
@@ -123,7 +150,16 @@
     "frequency": "常用（Web 需要重启时）",
     "category": "第三方开源插件",
     "stars": 4,
-    "install": "本地 link 安装（link:D:/1/dsh-web-restart）"
+    "install": "GitHub 安装（github:1123762794/dsh-web-restart）"
+  },
+  {
+    "name": "dsh-archive-sessions",
+    "repo": "https://github.com/1123762794/dsh-archive-sessions",
+    "desc": "归档会话管理面板：在设置页列出并管理已归档会话（查看内容/归档/恢复）。",
+    "frequency": "按需（管理已归档会话时）",
+    "category": "第三方开源插件",
+    "stars": 0,
+    "install": "GitHub 安装（github:1123762794/dsh-archive-sessions）"
   },
   {
     "name": "dsh-opencode-quota",
@@ -132,7 +168,7 @@
     "frequency": "每次打开 Web 界面",
     "category": "第三方开源插件",
     "stars": 0,
-    "install": "本地 link 安装（link:D:/1/dsh-opencode-quota）"
+    "install": "GitHub 安装（github:1123762794/dsh-opencode-quota#v0.1.1）"
   },
   {
     "name": "lan-gate",

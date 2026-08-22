@@ -15,7 +15,7 @@
 
 ## 插件总览
 
-统计：共 **18** 项（官方核心 2 / 第三方开源插件 14 / 本机源码工程 2）。
+统计：共 **22** 项（官方核心 2 / 第三方开源插件 18 / 本机源码工程 2）。
 
 > 分类全部基于可验证的事实（包发布方、仓库 owner、安装方式），不包含任何"谁开发"的主观判断。star 数为采集时 GitHub 实测值。
 
@@ -39,10 +39,14 @@
 | `@anionex/dsh-vision-toolkit` | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit)（609★） | npm（^0.1.7） | agent-vision-toolkit 的 DSH 原生集成：图像问答、OCR、接地、UI 还原、像素对比、Artifacts | 按需（视觉任务时） |
 | `@xmanrui/dsh-im` | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im)（33★） | npm（^0.1.1） | 扫码/机器人凭据把 IM 机器人接入 DSH（飞书/微信/钉钉/企微/QQ/Telegram/Discord） | 底层（供各渠道接入） |
 | `dsh-lark-channel` | [omdsh-dev/dsh-lark](https://github.com/omdsh-dev/dsh-lark)（30★） | npm（^0.0.6） | 飞书 IM 机器人渠道：对话驱动 agent，回复与审批以消息/卡片返回 | 高频（当前会话即经此渠道） |
+| `dsh-pocket` | [shaobeichen/dsh-pocket](https://github.com/shaobeichen/dsh-pocket)（368★） | npm（^1.9.2） | 把 DSH 装进口袋：手机扫码即同步访问电脑上的 DSH（局域网 + 公网，实时同屏） | 按需（手机远程访问时） |
 | `@liustack/modlens` | [liustack/modlens](https://github.com/liustack/modlens)（2743★） | npm（3.18.1） | 面向文本 LLM 的即插即用视觉桥：免费 Antigravity CLI 提供图像理解/OCR | 按需（读图/OCR 时） |
 | `dsh-memory-evolve` | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve)（150★） | 本地 link（link:D:/1/dsh-memory-evolve） | 第三方开源记忆插件（csyangwen 发布，dsh-external 组织维护）：五轨分层记忆 + 自我进化（技能自动创建+回合内审查）+ 技能/待办管理 + 无限画板 + COI 调度 + 会话广播 + 提示词管理器 + 记忆同步 + 书签/分支 + 本地搜索 + 临时便签，带 WebUI | 每回合（记忆持续写入） |
-| `dsh-web-restart` | [1123762794/dsh-web-restart](https://github.com/1123762794/dsh-web-restart)（4★） | 本地 link（link:D:/1/dsh-web-restart） | DSH Web 一键重启按钮：侧边栏底部单击即重启 dsh web 进程 | 常用（Web 需重启时） |
-| `dsh-opencode-quota` | [1123762794/dsh-opencode-quota](https://github.com/1123762794/dsh-opencode-quota) | 本地 link（link:D:/1/dsh-opencode-quota） | 输入框下方显示 OpenCode Go 订阅额度（5小时/周/月已用百分比） | 每次打开 Web 界面 |
+| `dsh-web-restart` | [1123762794/dsh-web-restart](https://github.com/1123762794/dsh-web-restart)（4★） | GitHub（github:1123762794/dsh-web-restart） | DSH Web 一键重启按钮：侧边栏底部单击即重启 dsh web 进程 | 常用（Web 需重启时） |
+| `dsh-archive-sessions` | [1123762794/dsh-archive-sessions](https://github.com/1123762794/dsh-archive-sessions) | GitHub（github:1123762794/dsh-archive-sessions） | 归档会话管理面板：设置页列出并管理已归档会话（查看内容/归档/恢复） | 按需（管理已归档会话时） |
+| `dsh-opencode-quota` | [1123762794/dsh-opencode-quota](https://github.com/1123762794/dsh-opencode-quota) | GitHub（github:1123762794/dsh-opencode-quota#v0.1.1） | 输入框下方显示 OpenCode Go 订阅额度（5小时/周/月已用百分比） | 每次打开 Web 界面 |
+| `dsh-undo-savepoint` | [lire1131/dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint)（112★） | GitHub（github:lire1131/dsh-undo-savepoint#master） | 配置撤销/回滚：变更自动快照，WebUI/对话里 undo/redo，插件树坏了离线回滚 | 底层（配置变更自动快照） |
+| `@dsh-external/dsh-automation` | [titanwings/dsh-automation](https://github.com/titanwings/dsh-automation)（69★） | GitHub（github:titanwings/dsh-automation#v0.1.6） | 自动化：Coding 任务按计划在全新 Agent Session 运行，从 DSH Web/Agent 管理 | 按需（定时任务时） |
 | `lan-gate` | [hchao3335-maker/dsh-lan-gate](https://github.com/hchao3335-maker/dsh-lan-gate)（11★） | 文件加载（file:///C:/Users/11237/.dsh/lan-gate/lan-gate.mjs） | 内网访问网关：`0.0.0.0:3088 → 127.0.0.1:3080`，本机审批、设备令牌、限流、手机适配，单文件零依赖 | 常驻（移动端远程访问） |
 
 ### 本机源码工程（源码在 D:/1，未在 web profile 接线运行）
